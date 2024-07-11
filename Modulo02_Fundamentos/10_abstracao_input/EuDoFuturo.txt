@@ -1,0 +1,37 @@
+01. o professor nao disse para colocar ainda git ignore, mas como o inquirer usa muitas dependencias vou colocar ja.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+rodando no terminal node ./index.js
+
+aparecerar esse resultado: 
+
+? Qual a primeira nota? 
+? Qual a segunda nota?
+
+respondendo aparecera a media.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+AVISO PARA MIM DO FUTURO 
+
+Mesmo Erro, erro de importação, para o eu do futuro resolver esse erro voce deve importar usando o import/from no lugar do require 
+e mudar o type no package.json para Module
+
+*********************************************************************************************
+
+ode ./index.js
+/home/vboxuser/Documentos/Udemy/Node/Modulo02_Fundamentos/10_abstracao_input/index.js:3
+inquirer.prompt([
+         ^
+
+TypeError: inquirer.prompt is not a function
+    at Object.<anonymous> (/home/vboxuser/Documentos/Udemy/Node/Modulo02_Fundamentos/10_abstracao_input/index.js:3:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+    at Module.load (node:internal/modules/cjs/loader:1205:32)
+    at Module._load (node:internal/modules/cjs/loader:1021:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v21.7.1

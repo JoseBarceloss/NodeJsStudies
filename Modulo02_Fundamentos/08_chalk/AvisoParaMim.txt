@@ -1,0 +1,11 @@
+OBS: estava tentando importar o 'chalk' usando o require como foi ensinado pelo professor, 
+so que tive que lidar com erros no terminal falando que nao podia porque o 'chalk' e um ESmodule 
+entao tive que importa dessa maneira,import chalk from 'chalk'; 
+
+para poder fazer esse tipo de importação tive que modificar o Package.json o type para module 
+
+  "name": "08_chalk",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
