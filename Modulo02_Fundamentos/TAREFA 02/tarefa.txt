@@ -1,0 +1,21 @@
+01. Crie um novo projeto que aceite pacotes externos.
+
+02. intale o inquirer e o chalk.
+
+03. utilize o inquirer para receber o nome e a idade do usuario.
+
+04. apresente esta resposta com uma cor de fundo amarela e texto preto.
+
+05 insira um tratamento para um possivel erro do inquirer com o catch.
+
+---------------------------------------------------------------------------------
+
+! Erros !
+
+O erro que enfrentei foi que não estava conseguindo pegar os dados porque estava dando 
+console.log fora do bloco try/catch, mas resolvi de uma maneira que eu não precisasse 
+colocar o console.log dentro do try/catch para eu ter acesso aos dados em toda a função.
+
+teve tambem o erro de importação que tive que modificar o type no package.json para 'Module' 
+porque o require estava dando erro entao eu usei o import/from e para usar ele sem nenhum Erro
+tive que fazer essa modificação 
