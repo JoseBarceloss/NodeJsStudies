@@ -1,0 +1,4 @@
+Forma Sincrona: o codigo espera ser totalmente executado para prosseguir.
+
+Forma Assincrona: o codigo continua progredindo e em um ponto futuro obtem a resposta da execução 
+Assincrona. 
