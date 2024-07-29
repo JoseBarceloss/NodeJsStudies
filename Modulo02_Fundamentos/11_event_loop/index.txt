@@ -1,0 +1,1 @@
+Ele garante que a execução do codigo seja sequencial. 
