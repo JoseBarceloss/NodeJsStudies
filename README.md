@@ -21,5 +21,5 @@ Atualmente, estou estudando Node.js em casa, pois estou afastado da Trybe devido
 ---
 
 <div align="center">
-  <img src="https://i.pinimg.com/originals/bc/09/8b/bc098b5fa6a0185a718a673445319644.gif" width="800" height="270"">
+  <img src="https://i.pinimg.com/originals/bc/09/8b/bc098b5fa6a0185a718a673445319644.gif" width="800" height="270">
 </div>
