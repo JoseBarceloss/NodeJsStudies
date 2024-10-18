@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6347;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .input-1{
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Create Account</h1>
+    <form action="/users/save" method="POST">
+    <div class="input-1">
+        <input type="text" name="name" placeholder="Digite Seu Nome">
+    </div>
+    <div class="input-1">
+        <input type="text" name="age" placeholder="Digite Sua Idade">
+    </div>
+    <div class="input-1">
+        <input type="submit" value="Cadastrar">
+    </div>
+    </form>
+</body>
+
+</html>
